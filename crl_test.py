@@ -6,6 +6,7 @@
 #%% crawling data
 
 import requests
+import datetime
 from bs4 import BeautifulSoup
 
 def getSrcHtml(urlToGet):
@@ -54,4 +55,5 @@ wc = WordCloud(background_color="white",
 wc.generate(itemsStr)
 
 wc.to_image()
-wc.to_file('./wordcloud.jpg')
+date = str(datetime.datetime.today())[:10]
+wc.to_file('./wc_img/WC-'+date+'.jpg')
