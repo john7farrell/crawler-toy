@@ -10,4 +10,4 @@ Simply doing 2 things:
 - generate a wordcloud based on the news titles.
 
 example image of wordcloud:
-![img](https://github.com/john7farrell/techmmPrj/blob/master/wordcloud.jpg)
+![img](https://github.com/john7farrell/techmmPrj/blob/master/wc_img/WC-2017-05-09.jpg)
